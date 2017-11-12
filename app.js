@@ -1,0 +1,1 @@
+var cljsApp = require('./dist/app.main.js')

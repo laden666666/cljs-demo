@@ -1,0 +1,24 @@
+{
+  "name": "cljs-demo",
+  "version": "1.0.0",
+  "description": "一个cljs的开发demo，帮助大家解决环境配置问题",
+  "main": "dist/app/app.main.js",
+  "keywords": [ "cljs", "shadow-cljs", "clojurescript", "shadow-cljs initdemo" ],
+  "scripts": {
+    "dev": "shadow-cljs watch app",
+    "build": "shadow-cljs compile app"
+  },
+  "devDependencies": {
+    "shadow-cljs": "^2.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laden666666/cljs-demo.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/laden666666/cljs-demo/issues"
+  },
+  "homepage": "https://github.com/laden666666/cljs-demo#readme"
+}
